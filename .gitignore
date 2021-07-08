@@ -4,3 +4,9 @@
 *.pyc
 __pycache__
 db.sqlite3
+lib
+lib64
+bin
+pyvenv.cfg
+share
+static
