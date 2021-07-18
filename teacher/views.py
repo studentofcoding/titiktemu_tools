@@ -15,7 +15,7 @@ from quiz import forms as QFORM
 def teacherclick_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
-    return render(request,'teacher/teacherclick.html')
+    return render(request,'teacher/teacher_landing.html')
 
 def teacher_signup_view(request):
     userForm=forms.TeacherUserForm()
